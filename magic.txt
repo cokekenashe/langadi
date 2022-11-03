@@ -1,0 +1,15 @@
+1 direct
+2 indirect
+3 add
+4 mul
+5 fact
+6 1's 2's
+b BinaryMultiplier
+m Multiplexer
+r  rca
+h half adder
+f full adder
+l cla
+s csa
+* csm
+g coa lab manual
