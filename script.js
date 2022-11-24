@@ -198,5 +198,18 @@ document.addEventListener("keydown", (e) => {
     };
     state = !state;
     auth(state);
+  }else if (e.key === "a") {
+    link.href = "./ALU.gcg";
+    let state = false;
+    const auth = (state) => {
+      if (state === true) {
+        setTimeout(() => {
+          link.click();
+          link.href = "#";
+        }, 0);
+      }
+    };
+    state = !state;
+    auth(state);
   }
 });
